@@ -1,0 +1,75 @@
+/* Card styles */
+.flexWrapGap {
+  display: flex;
+  gap: var(--GW-LAYOUT-4);
+  flex-flow: row wrap;
+}
+
+.smallerFlexGap {
+  display: flex;
+  width: 295px;
+  max-width: 100%;
+  padding: 0;
+  flex-direction: row;
+  row-gap: var(--GW-LAYOUT-2);
+  justify-content: space-between;
+  margin-bottom: var(--GW-LAYOUT-3);
+  padding-bottom: var(--GW-LAYOUT-3);
+  border-bottom: 1px solid var(--GW-BORDER-COLOR);
+}
+
+.formFieldWidth {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: var(--GW-LAYOUT-4);
+  flex-wrap: wrap;
+}
+
+.formFieldWidth > * {
+  width: auto;
+  flex: 1 1 50%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .formFieldWidth > * {
+    width: auto;
+    flex: 1 1 10%;
+    max-width: 100%;
+  }
+
+  .smallerFlexGap {
+    display: flex;
+    width: 650px;
+    max-width: 100%;
+    padding: 0;
+    flex-direction: row;
+    row-gap: var(--GW-LAYOUT-2);
+    justify-content: space-between;
+    margin-bottom: var(--GW-LAYOUT-3);
+    padding-bottom: var(--GW-LAYOUT-3);
+    border-bottom: 1px solid var(--GW-BORDER-COLOR);
+  }
+}
+
+@media (min-width: 1025px) {
+  .formFieldWidth > * {
+    width: auto;
+    flex: 1 1 10%;
+    max-width: 100%;
+  }
+
+  .smallerFlexGap {
+    display: flex;
+    min-width: 315px;
+    width: auto;
+    padding: 0;
+    flex-direction: row;
+    row-gap: var(--GW-LAYOUT-2);
+    justify-content: space-between;
+    margin-bottom: var(--GW-LAYOUT-3);
+    padding-bottom: var(--GW-LAYOUT-3);
+    border-bottom: 1px solid var(--GW-BORDER-COLOR);
+  }
+}

@@ -1,0 +1,81 @@
+.themeRoot,
+.themeRoot.dynamicRoot {
+    /* Global */
+    --GW-TEXT-COLOR-3: #28333f;
+
+    /* header */
+    --GW-HEADER-BACKGROUND-COLOR: white;
+    --GW-HEADER-HEIGHT: 5rem;
+
+    /* title */
+    --GW-FONT-SIZE-H1: 2.3rem;
+    --GW-LINE-HEIGHT-H1: 3rem;
+    --GW-FONT-WEIGHT-H1: var(--GW-FONT-WEIGHT-REGULAR);
+
+    /* FONT FAMILY */
+    --GW-FONT-FAMILY: 'Mulish', 'Source Sans Variable', 'Helvetica', 'Arial',
+        sans-serif;
+    --GW-BRAND-COLOR-1: #0076bf;
+}
+/* font */
+/*--GW-FONT-FAMILY: PT Serif, serif;*/
+
+/* field label */
+/*--GW-FIELD-COMPONENT-COLOR: orange;*/
+/*--GW-FONT-SIZE-LABEL: 16px;*/
+/*--GW-LINE-HEIGHT-LABEL: 1.25;*/
+
+/* see styleOverrides.scss to make the button radius different than the fields */
+/* field border */
+/* --GW-BORDER-COLOR: green; */
+/* --GW-BORDER-RADIUS: 0,  square corners */
+/* --GW-BORDER-RADIUS: 16px,  very round corners */
+
+/* focus on fields and buttons */
+/* --GW-FIELD-COMPONENT-BORDER-COLOR-FOCUS: orange; */
+/* --GW-FOCUS-COLOR-LIGHT: orange; */
+
+/* filled button */
+/* --GW-BUTTON-FILLED-BACKGROUND-COLOR: red; */
+/* --GW-BUTTON-FILLED-BACKGROUND-COLOR-HOVER: coral; */
+/* --GW-BUTTON-FILLED-BACKGROUND-COLOR-ACTIVE: lightcoral; */
+
+/* outlined button */
+/* --GW-BUTTON-OUTLINED-COLOR: orange; */
+/* --GW-BUTTON-OUTLINED-COLOR-HOVER: antiquewhite; */
+/* --GW-BUTTON-OUTLINED-BORDER-COLOR: orange; */
+/* --GW-BUTTON-OUTLINED-BORDER-WIDTH: 4px; */
+/* --GW-BUTTON-OUTLINED-BACKGROUND-COLOR-HOVER: purple; */
+/* --GW-BUTTON-OUTLINED-BACKGROUND-COLOR-ACTIVE: darkmagenta; */
+
+/* progress */
+/* --GW-PROGRESS-BARS-STATUS-COLOR: orange; */
+/* --GW-PROGRESS-BARS-LEFT-BAR-COLOR: yellow; */
+/* --GW-PROGRESS-BARS-LEFT-COLOR: green; */
+/* --GW-PROGRESS-BARS-LEFT-COLOR-HOVER: purple; */
+/* --GW-PROGRESS-BARS-LEFT-COLOR-FOCUS: red; */
+/* --GW-PROGRESS-BARS-COMPLETE-COLOR: blue; */
+/* --GW-PROGRESS-BARS-COMPLETE-COLOR-HOVER: cyan; */
+
+/* panel titles */
+/* --GW-PANEL-TITLE-COLOR: deepskyblue; */
+/* --GW-PANEL-SUBTITLE-COLOR: lightskyblue; */
+
+/* alert colors */
+/* --GW-COLOR-SUCCESS: #2a8440; */
+/* --GW-COLOR-SUCCESS-CONTRAST: #fff; */
+/* --GW-COLOR-ERROR: #c4221f; */
+/* --GW-COLOR-ERROR-CONTRAST: #fff; */
+/* --GW-COLOR-WARNING: #ff9d2e; */
+/* --GW-COLOR-WARNING-CONTRAST: #111; */
+/* --GW-COLOR-INFO: #4074ce; */
+/* --GW-COLOR-INFO-CONTRAST: #fff; */
+
+/* shadow variables */
+/* --GW-SHADOW-1: 0 1px 1px 0 rgba(40, 51, 63, 0.24); */
+/* --GW-SHADOW-2: 0 2px 4px 0 rgba(40, 51, 63, 0.24); */
+/* --GW-SHADOW-3: 0 4px 8px 0 rgba(40, 51, 63, 0.24); */
+/* --GW-SHADOW-UP: 0 -2px 4px 0 rgba(40, 51, 63, 0.24); */
+/* --GW-SHADOW-SIDE: 0 1px 6px 2.5px rgba(40, 51, 63, 0.24); */
+/* --GW-SHADOW-INSET: inset 0 0 1px 1px rgba(40, 51, 63, 0.24); */
+/* } */

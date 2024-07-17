@@ -1,0 +1,9 @@
+{
+  "migrations": [
+    {
+      "package": "@jutro/migrations",
+      "currentVersion": "10.0.0",
+      "toVersion": "@latest"
+    }
+  ]
+}

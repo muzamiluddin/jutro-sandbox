@@ -1,0 +1,5 @@
+{
+  "remotes": {
+    "local-mfe": "jutroapp@http://localhost:3001"
+  }
+}

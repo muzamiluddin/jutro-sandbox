@@ -1,0 +1,17 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 12 Jul 2024 20:10:41 GMT
+ */
+
+.themeRoot,
+.themeRoot.dynamicRoot {
+  --WS-COLOR-ALERT-1: #ffcc3f;
+  --WS-COLOR-ALERT-2: #fcf8e3;
+  --WS-COLOR-FEEDBACK-1: #d90000;
+  --WS-COLOR-FEEDBACK-2: #8c348a;
+  --WS-COLOR-GLOBAL-BLACK: #000000;
+  --WS-COLOR-GLOBAL-WHITE: #ffffff;
+  --WS-COLOR-PRIMARY-1: #003359;
+  --WS-COLOR-PRIMARY-2: #0076bf;
+  --WS-COLOR-PRIMARY-3: #00a851;
+}

@@ -1,0 +1,44 @@
+@import '../assets/wsib.css';
+@import 'App';
+@import 'Theme';
+
+// Background Classes
+.ws-bg-primary-1 {
+  background-color: var(--WSIB-COLOR-PRIMARY-1);
+}
+
+.ws-bg-primary-2 {
+  background-color: var(--WSIB-COLOR-PRIMARY-2);
+}
+
+.ws-bg-primary-3 {
+  background-color: var(--WSIB-COLOR-PRIMARY-3);
+}
+
+.ws-bg-alert-1 {
+  background-color: var(--WSIB-COLOR-ALERT-1);
+}
+
+.ws-bg-alert-2 {
+  background-color: var(--WSIB-COLOR-ALERT-2);
+}
+
+// Text Classes
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

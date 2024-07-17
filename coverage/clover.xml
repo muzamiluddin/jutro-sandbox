@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1699282459508" clover="3.2.0">
+  <project timestamp="1699282459508" name="All files">
+    <metrics statements="157" coveredstatements="109" conditionals="44" coveredconditionals="15" methods="49" coveredmethods="29" elements="250" coveredelements="153" complexity="0" loc="157" ncloc="157" packages="12" files="24" classes="24"/>
+    <package name="src">
+      <metrics statements="40" coveredstatements="23" conditionals="14" coveredconditionals="5" methods="9" coveredmethods="6"/>
+      <file name="index.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/index.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="indexAsync.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/indexAsync.ts">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="messagesLoaders.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/messagesLoaders.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="5" methods="6" coveredmethods="6"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="34" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="84" count="3" type="stmt"/>
+        <line num="87" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+      </file>
+      <file name="startApp.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/startApp.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app">
+      <metrics statements="10" coveredstatements="6" conditionals="6" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="App.config.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/app/App.config.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="43" count="4" type="stmt"/>
+      </file>
+      <file name="App.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/app/App.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="App.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/app/App.tsx">
+        <metrics statements="9" coveredstatements="5" conditionals="6" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.HelpPopoverItems">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HelpPopoverItems.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/components/HelpPopoverItems/HelpPopoverItems.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="HelpPopoverItems.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/components/HelpPopoverItems/HelpPopoverItems.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.context">
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="SettingsContext.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/context/SettingsContext.tsx">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="34" count="7" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="47" count="18" type="stmt"/>
+        <line num="49" count="17" type="stmt"/>
+        <line num="51" count="17" type="stmt"/>
+        <line num="53" count="1" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.hooks">
+      <metrics statements="11" coveredstatements="8" conditionals="10" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="useFloorPlansWithNavigationPlacement.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/hooks/useFloorPlansWithNavigationPlacement.tsx">
+        <metrics statements="11" coveredstatements="8" conditionals="10" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Settings.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/Settings.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Settings.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/Settings.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings.components.AboutSettingsCard">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="AboutSettingsCard.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/AboutSettingsCard/AboutSettingsCard.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="AboutSettingsCard.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/AboutSettingsCard/AboutSettingsCard.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings.components.GlobalizationSettingsCard">
+      <metrics statements="28" coveredstatements="18" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="1"/>
+      <file name="GlobalizationSettingsCard.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/GlobalizationSettingsCard/GlobalizationSettingsCard.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="GlobalizationSettingsCard.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/GlobalizationSettingsCard/GlobalizationSettingsCard.tsx">
+        <metrics statements="28" coveredstatements="18" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+        <line num="14" count="16" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="23" count="16" type="stmt"/>
+        <line num="25" count="16" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="16" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="16" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="16" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="16" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings.components.NavigationSettingsCard">
+      <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <file name="NavigationSettingsCard.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/NavigationSettingsCard/NavigationSettingsCard.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="NavigationSettingsCard.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/NavigationSettingsCard/NavigationSettingsCard.tsx">
+        <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings.components.SettingsCard">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="SettingsCard.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/SettingsCard/SettingsCard.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="25" count="36" type="stmt"/>
+        <line num="37" count="52" type="stmt"/>
+        <line num="41" count="52" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings.components.SettingsCardToolbar">
+      <metrics statements="14" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="1"/>
+      <file name="SettingsCardToolbar.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/SettingsCardToolbar/SettingsCardToolbar.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SettingsCardToolbar.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/SettingsCardToolbar/SettingsCardToolbar.tsx">
+        <metrics statements="14" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="1"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
+        <line num="22" count="36" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="36" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="36" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="36" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Settings.components.ThemeSettingsCard">
+      <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="ThemeSettingsCard.messages.ts" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/ThemeSettingsCard/ThemeSettingsCard.messages.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ThemeSettingsCard.tsx" path="/Users/dgangwar/Documents/jutro-sandbox/src/pages/Settings/components/ThemeSettingsCard/ThemeSettingsCard.tsx">
+        <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

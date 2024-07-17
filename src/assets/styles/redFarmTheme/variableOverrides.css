@@ -1,0 +1,26 @@
+.themeRoot,
+.themeRoot.dynamicRoot {
+    /* font */
+    --GW-FONT-FAMILY: 'Nunito Sans';
+
+    /* colors */
+    --GW-BRAND-COLOR-1: #72c8ec;
+    --GW-BRAND-COLOR-1-HOVER: #47b7e6;
+    --GW-BRAND-COLOR-1-ACTIVE: #5dc0e9;
+    --GW-BRAND-COLOR-2: #b3222b;
+    --GW-TEXT-COLOR-2: var(--GW-TEXT-COLOR-1);
+    --GW-TEXT-COLOR-3: var(--GW-TEXT-COLOR-1);
+
+    /* border */
+    --GW-BORDER-RADIUS: 0;
+    --GW-BORDER-COLOR: #cfcfcf;
+    --GW-SHADOW-2: unset;
+
+    /* components */
+    --GW-FOOTER-BACKGROUND-COLOR: white;
+    --GW-BUTTON-INVERSE-COLOR: white;
+    --GW-BRANDED-LOADER-COLOR: #00739d;
+
+    /* floorplan */
+    --GW-BACKGROUND-COLOR-BODY: #f0f3f6;
+}

@@ -1,0 +1,22 @@
+{
+  "jutro-app.Pages.Dashboard.title": "[1NWcI5_Dashboard]",
+  "jutro-app.Pages.Settings.cancel": "[2k9b2X_Cancel]",
+  "jutro-app.Pages.Settings.edit": "[4BJKo1_Edit]",
+  "jutro-app.Pages.Settings.heading": "[3bffkZ_Settings]",
+  "jutro-app.Pages.Settings.regionalFormat": "[4kPyWo_Language and Regional format]",
+  "jutro-app.Pages.Settings.save": "[39o8pS_Save]",
+  "jutro-app.Pages.Settings.theme": "[2Nps9s_Theme]",
+  "jutro-app.Pages.Settings.themeLabel": "[3jdG3S_Current theme]",
+  "jutro-app.Pages.Settings.title": "[2IeCt0_Settings]",
+  "jutro.app.appDescription": "[2m09Hk_Jutro App is a scaffolding application that provides sample source code and examples.]",
+  "jutro.app.appName": "[2pDoeN_Jutro App]",
+  "jutro.app.help.gwCloud": "[wuBTb_Guidewire Cloud]",
+  "jutro.app.help.gwCloudDescription": "[3BWU21_Guidewire Cloud™ is the optimal way to experience the power of Guidewire InsurancePlatform™, combining Guidewire software, services, and ecosystem in a scalable SaaS model. It scales according to use, provides cost predictability, and transfers IT risk to Guidewire. Expert Guidewire teams and our SaaS-certified partners provide implementation services, security, ongoing management, and regular updates]",
+  "jutro.app.help.href": "[2FtXu8_https://docs.guidewire.com/]",
+  "jutro.app.help.readMore": "[2Bdjg8_Read more about GW Cloud]",
+  "jutro.app.settings.aboutSettings.about": "[12tnTi_About]",
+  "jutro.app.settings.aboutSettings.logoTitle": "[12MQj7_Guidewire Cloud]",
+  "jutro.app.settings.navigationPlacementSettingsCard.headerLabel": "[1CXMJu_Navigation]",
+  "jutro.app.settings.navigationPlacementSettingsCard.leftLabel": "[36vfBp_Left]",
+  "jutro.app.settings.navigationPlacementSettingsCard.topLabel": "[3LzSo7_Top]"
+}

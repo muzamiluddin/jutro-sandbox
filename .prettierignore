@@ -1,0 +1,28 @@
+package-lock.json
+build.json
+
+# distribution
+dist/
+
+# build
+build/
+
+# test reports
+reports/
+coverage/
+
+tmp/
+
+# Tranlsations
+/i18n
+**/i18n/*.json
+biz-comp-translations/
+
+# Generated message files
+*.messages.json
+
+# Generated metadata files
+*.metadata.json
+
+platform/
+@jutro/

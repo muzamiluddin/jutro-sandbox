@@ -1,0 +1,26 @@
+{
+  "endlessSky": {
+    "name": "endlessSky",
+    "variableOverrides": "styles/endlessSky/variableOverrides.css",
+    "styleOverrides": "styles/endlessSky/styleOverrides.css",
+    "baseTheme": "Consumer"
+  },
+  "DSB": {
+    "name": "DSB",
+    "variableOverrides": "styles/dsbTheme/variableOverrides.css",
+    "styleOverrides": "styles/dsbTheme/styleOverrides.css",
+    "baseTheme": "Consumer"
+  },
+  "RedFarm": {
+    "name": "RedFarm",
+    "baseTheme": "Consumer",
+    "variableOverrides": "styles/redFarmTheme/variableOverrides.css",
+    "styleOverrides": "styles/redFarmTheme/styleOverrides.css"
+  },
+  "wsibTheme": {
+    "name": "wsibTheme",
+    "baseTheme": "Enterprise",
+    "variableOverrides": "styles/wsibTheme/variableOverrides.css",
+    "styleOverrides": "styles/wsibTheme/styleOverrides.css"
+  }
+}

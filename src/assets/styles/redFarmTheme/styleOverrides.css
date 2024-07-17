@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url(/fonts/NunitoSans-Regular.ttf);
+}
+
+.jut__ToggleField__toggleButton,
+.jut__Button__button {
+    text-transform: uppercase;
+}
+
+.jut__ActionTitleBar__actionTitleBar.jut__ActionTitleBar__actionTitleBarContainer {
+    border-color: #d1d9e2;
+}
+
+.jut__ApplicationHeader__logoTitleText {
+    color: white;
+}
+
+.jut__ApplicationHeader__applicationLogo {
+    content: url(/images/field.png);
+}
+
+#welcomeHeader1 {
+    content: url(/images/redFarmBg.png);
+}
+
+.footerNavBar {
+    color: #b3222b;
+}

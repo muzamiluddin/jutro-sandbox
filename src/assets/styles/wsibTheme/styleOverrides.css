@@ -1,0 +1,31 @@
+.themeRoot,
+.themeRoot.dynamicRoot {
+    /* header */
+
+    /* DSB Theme */
+    --GW-BORDER-COLOR: rgb(206, 206, 206);
+    --GW-BORDER-RADIUS: 0;
+    --GW-FOCUS-COLOR-LIGHT: none;
+    --GW-PROGRESS-BARS-COMPLETE-COLOR: rgb(86, 184, 86);
+    --GW-TOOLTIP-ICON-COLOR: black;
+    --GW-BACKGROUND-COLOR-BODY: white;
+    --GW-CARD-BACKGROUND-COLOR: rgb(236, 235, 235);
+    --GW-BUTTON-FILLED-BACKGROUND-COLOR: rgb(56, 114, 206);
+    --GW-BUTTON-FILLED-BACKGROUND-COLOR-HOVER: rgb(99, 136, 221);
+    --GW-BUTTON-FILLED-BACKGROUND-COLOR-ACTIVE: rgb(99, 136, 221);
+    --GW-BUTTON-TEXT-COLOR: rgb(56, 114, 206);
+    --GW-SELECTOR-SELECTED-BACKGROUND-COLOR: rgb(56, 114, 206);
+    --GW-BUTTON-OUTLINED-COLOR: rgb(56, 114, 206);
+    --GW-BUTTON-OUTLINED-BORDER-COLOR: rgb(56, 114, 206);
+    --GW-BUTTON-OUTLINED-BACKGROUND-COLOR-HOVER: rgb(56, 114, 206);
+    --GW-LINK-COLOR: #0d73b8;
+}
+
+.h1 {
+    font-weight: var(--WSIB-FONT-WEIGHT-REGULAR);
+}
+
+/* Buttons */
+.jut__Button__primary {
+    background-color: var(--WSIB-COLOR-PRIMARY-2);
+}

@@ -1,0 +1,22 @@
+{
+  "jutro-app.Pages.Dashboard.title": "Dashboard",
+  "jutro-app.Pages.Settings.cancel": "Cancel",
+  "jutro-app.Pages.Settings.edit": "Edit",
+  "jutro-app.Pages.Settings.heading": "Settings",
+  "jutro-app.Pages.Settings.regionalFormat": "Language and Regional format",
+  "jutro-app.Pages.Settings.save": "Save",
+  "jutro-app.Pages.Settings.theme": "Theme",
+  "jutro-app.Pages.Settings.themeLabel": "Current theme",
+  "jutro-app.Pages.Settings.title": "Settings",
+  "jutro.app.appDescription": "Jutro App is a scaffolding application that provides sample source code and examples.",
+  "jutro.app.appName": "Jutro App",
+  "jutro.app.help.gwCloud": "Guidewire Cloud",
+  "jutro.app.help.gwCloudDescription": "Guidewire Cloud™ is the optimal way to experience the power of Guidewire InsurancePlatform™, combining Guidewire software, services, and ecosystem in a scalable SaaS model. It scales according to use, provides cost predictability, and transfers IT risk to Guidewire. Expert Guidewire teams and our SaaS-certified partners provide implementation services, security, ongoing management, and regular updates",
+  "jutro.app.help.href": "https://docs.guidewire.com/",
+  "jutro.app.help.readMore": "Read more about GW Cloud",
+  "jutro.app.settings.aboutSettings.about": "About",
+  "jutro.app.settings.aboutSettings.logoTitle": "Guidewire Cloud",
+  "jutro.app.settings.navigationPlacementSettingsCard.headerLabel": "Navigation",
+  "jutro.app.settings.navigationPlacementSettingsCard.leftLabel": "Left",
+  "jutro.app.settings.navigationPlacementSettingsCard.topLabel": "Top"
+}

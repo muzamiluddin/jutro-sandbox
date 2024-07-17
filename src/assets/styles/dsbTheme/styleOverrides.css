@@ -1,0 +1,164 @@
+body
+    .jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__right,
+body
+    .jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__right:focus {
+    border-radius: 0 16px 16px 0;
+}
+
+body
+    .jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__left,
+body
+    .jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__left:focus {
+    border-radius: 16px 0 0 16px;
+}
+
+body .jut__Button__button {
+    border-radius: 16px;
+}
+
+body .jut__CurrencyField__inputContainer,
+body .jut__DatePickerField__datePicker,
+body .jut__GenericSelectControl__control,
+body .jut__InputField__input {
+    border-width: 0px 0px 2px;
+    margin-bottom: 40px;
+}
+
+body.jut__InputField__input {
+    border-width: 0px 0px 2px;
+    margin-bottom: 40px;
+}
+
+body .jut__CurrencyField__currencyInput,
+body .jut__InputField__input,
+body .css-1uccc91-singleValue {
+    font-weight: 900;
+}
+
+body .jut__Panel__title {
+    font-weight: 300;
+}
+
+body .jut__WizardActionBarNext__separator {
+    display: none;
+}
+
+body .jut__Card__card {
+    border: none;
+}
+
+body .coverageTitle {
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+}
+
+body .readOnlyLabel {
+    font-weight: 400;
+}
+
+body .readOnlyValue {
+    font-weight: 800;
+}
+
+body .readOnlyValue .jut__FieldComponent__controlReadOnly {
+    font-weight: 800;
+}
+
+body .jut__TooltipIcon__tooltipIcon {
+    left: -30px;
+}
+
+body .roundInput .jut__InputField__input,
+body .roundInput .jut__GenericSelectControl__control {
+    border: 1px solid;
+    border-radius: 16px;
+    border-color: var(--GW-BORDER-COLOR);
+    margin-bottom: 0px;
+}
+
+body .coveragesLabel {
+    font-weight: 600;
+}
+
+body .coveragesText {
+    font-weight: 500;
+}
+
+body .coverageContainerText {
+    /* font-size: large; */
+    font-weight: 500;
+}
+
+body .app__CoverageToggle__coverageSwitch .app__CoverageToggle__coverageLabel,
+.app__CoverageToggle__coverageLabel,
+body .jut__FieldLabel__secondaryLabel {
+    font-size: var(--GW-FONT-SIZE-LABEL);
+    font-weight: 600;
+    font-family: var(--GW-FONT-FAMILY);
+    color: var(--GW-FIELD-COMPONENT-COLOR);
+}
+
+body .jut__FieldLabel__secondaryLabel {
+    font-weight: 500;
+}
+
+body .jut__Accordion__cardTitle {
+    font-size: larger;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+body .jut__Button__fullWidth {
+    width: 100px;
+}
+
+body .customJsonToggle {
+    margin-bottom: 40px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .additionalInterestFormField {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .jsonFormButtonContainer {
+    text-align: center;
+}
+
+body .wizardContinueButton {
+    justify-self: end;
+}
+
+body #additionalInterestFirstNameReadOnly {
+    float: left;
+    margin-right: 3px;
+}
+
+body .editAdditionalInterestButton {
+    border-right: 1px solid lightgray;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+body .additionalInterestName {
+    font-weight: 900;
+    font-size: larger;
+}
+
+body .additionalInterestLabel {
+    font-weight: 400;
+}
+
+body .additionalInterestData {
+    font-weight: 900;
+}

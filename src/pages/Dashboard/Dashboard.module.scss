@@ -1,0 +1,12 @@
+.dashboardContainer {
+  display: flex;
+  max-width: 100%;
+  flex-flow: column wrap;
+  row-gap: var(--GW-LAYOUT-6);
+
+  .flexContainer {
+    column-gap: var(--GW-LAYOUT-6);
+    row-gap: var(--GW-LAYOUT-6);
+    flex-flow: column;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "wsib": {
+    "name": "wsib",
+    "tokens": {
+      "input-path": "src/tokens/**/*.json",
+      "output-file-name": "wsib.css",
+      "custom-mappings": "src/tokens/customMappings.json"
+    }
+  }
+}

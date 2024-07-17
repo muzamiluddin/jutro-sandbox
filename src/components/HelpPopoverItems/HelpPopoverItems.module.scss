@@ -1,0 +1,12 @@
+@import '~@jutro/theme/assets/sass/helpers';
+
+.helpComponent {
+  margin: var(--GW-SPACING-2) 0;
+  color: var(--GW-HELP-POPOVER-COLOR);
+
+  @include typography-body;
+}
+
+.helpLink {
+  color: var(--GW-HELP-POPOVER-LINK-COLOR);
+}

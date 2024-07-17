@@ -1,0 +1,47 @@
+{
+  "wsib": {
+    "color" : {
+      "background": {
+        "primary": {
+          "value": "#003359",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "#0076BF",
+            "type": "color"
+          },
+          "ternary": {
+            "value": "#00A851",
+            "type": "color"
+          }  
+        }
+      },
+      "feedback": {
+        "1": {
+          "value": "#D90000",
+          "type": "color"
+        },
+        "2": {
+          "value": "#8C348A",
+          "type": "color"
+        }
+      },
+      "alert": {
+        "1": {
+          "value": "#FFCC3F",
+          "type": "color"
+        },
+        "2": {
+          "value": "#FCF8E3",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/fonts/OpenSans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+.jut__AppFloorPlan__main {
+    background-color: var(--GW-BACKGROUND-COLOR-3);
+}
+
+.jut__ApplicationHeader__logoTitleText,
+.jut__NavBarItem__activeTopNavBarItem {
+    font-weight: var(--GW-FONT-WEIGHT-BOLD);
+}
+
+.jut__ApplicationHeader__headerActions .jut__IconButton__icon {
+    height: 24px;
+    width: 24px;
+}
+
+.jut__AppFloorPlan__subHeader {
+    box-shadow: 0px 1px 2px 1px rgba(40, 51, 63, 0.24);
+}
+
+.jut__Button__button {
+    border-radius: 4px;
+}
+
+.jut__Button__filled:focus {
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 4px #ff5c5c;
+}
+
+.jut__Button__text:focus {
+    border: 1px solid #055de4;
+    box-shadow: 0px 0px 4px rgba(5, 93, 228, 0.24);
+}
+
+.jut__Panel_DEPRECATED__panel {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px 1px rgba(40, 51, 63, 0.24);
+    border-radius: 4px;
+}
+
+.jut__ToggleField__content {
+    border: none;
+    border-radius: 4px;
+    background-color: var(--GW-FIELD-COMPONENT-BACKGROUND-COLOR);
+}
+
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__right:focus,
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__left:focus,
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__middle:focus,
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__middle:hover,
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__right:hover,
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__left:hover {
+    border: 1px solid #7d91ac;
+}
+
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__left {
+    border-radius: 4px 0 0 4px;
+}
+.jut__ToggleField__toggle
+    .jut__ToggleField__toggleButton.jut__ToggleField__right {
+    border-radius: 0 4px 4px 0;
+}
+
+.jut__InputField__input:focus,
+.jut__GenericSelectControl__controlFocused {
+    border: 1px solid #7d91ac;
+}
+
+.jut__RadioButtonCardField__radioWrapperLandscape {
+    --GW-SELECTOR-SELECTED-BACKGROUND-COLOR: #00739d;
+    background-color: #fff;
+}
+
+div.jut__RadioButtonCardField__radioButtonCard
+    div.jut__RadioButtonCardField__cardLandscape {
+    background: #e3ecfc;
+    box-shadow: 0px 1px 1px rgba(40, 51, 63, 0.24);
+    border-radius: 8px;
+    border: none;
+}
+
+img.jut__RadioButtonCardField__iconContentLandscape {
+    height: 48px;
+    width: 48px;
+}
+
+div.react-datepicker__today-button {
+    color: var(--GW-TEXT-COLOR-1);
+}
