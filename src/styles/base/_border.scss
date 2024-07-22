@@ -1,0 +1,41 @@
+$border-colors: (
+  regular: var(-- wsib-color-border-regular),
+  inverse: var(-- wsib-color-border-inverse),
+  separator: var(-- wsib-color-border-separator),
+  selected: var(-- wsib-color-border-selected),
+  selected-hover: var(-- wsib-color-border-selected-hover),
+  selected-active: var(-- wsib-color-border-selected-active),
+  brand: var(-- wsib-color-border-brand),
+  brand-hover: var(-- wsib-color-border-brand-hover),
+  brand-active: var(-- wsib-color-border-brand-active),
+  brand-accent-1: var(-- wsib-color-border-brand-accent-1),
+  brand-accent-1-hover: var(-- wsib-color-border-brand-accent-1-hover),
+  brand-accent-1-active: var(-- wsib-color-border-brand-accent-1-active),
+  brand-accent-2: var(-- wsib-color-border-brand-accent-2),
+  brand-accent-2-hover: var(-- wsib-color-border-brand-accent-2-hover),
+  brand-accent-2-active: var(-- wsib-color-border-brand-accent-2-active),
+  focus: var(-- wsib-color-border-focus),
+  focus-inverse: var(-- wsib-color-border-focus-inverse),
+  error: var(-- wsib-color-border-error),
+  success: var(-- wsib-color-border-success),
+  information: var(-- wsib-color-border-information),
+  warning: var(-- wsib-color-border-warning)
+);
+
+@each $name, $color in $border-colors {
+  .border-#{$name} {
+    border: 1px solid #{$color};
+  }
+  .border-top-#{$name} {
+    border-top: 1px solid #{$color};
+  }
+  .border-right-#{$name} {
+    border-right: 1px solid #{$color};
+  }
+  .border-bottom-#{$name} {
+    border-bottom: 1px solid #{$color};
+  }
+  .border-left-#{$name} {
+    border-left: 1px solid #{$color};
+  }
+}

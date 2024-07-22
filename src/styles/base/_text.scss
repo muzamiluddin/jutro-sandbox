@@ -1,0 +1,74 @@
+$text-colors: (
+  regular: var(--jds-color-text-regular),
+  subtle: var(--jds-color-text-subtle),
+  inverse: var(--jds-color-text-inverse),
+  brand: var(--jds-color-text-brand),
+  brand-hover: var(--jds-color-text-brand-hover),
+  brand-active: var(--jds-color-text-brand-active),
+  brand-accent-1: var(--jds-color-text-brand-accent-1),
+  brand-accent-2: var(--jds-color-text-brand-accent-2),
+  error: var(--jds-color-text-error),
+  information: var(--jds-color-text-information),
+  success: var(--jds-color-text-success),
+  warning: var(--jds-color-text-warning),
+  required: var(--jds-color-text-required),
+  link-default: var(--jds-color-text-link-default),
+  link-hover: var(--jds-color-text-link-hover),
+  link-active: var(--jds-color-text-link-active),
+  link-inverse: var(--jds-color-text-link-inverse),
+  link-visited: var(--jds-color-text-link-visited),
+  link-visited-hover: var(--jds-color-text-link-visited-hover),
+  link-visited-active: var(--jds-color-text-link-visited-active)
+);
+
+@each $name, $color in $text-colors {
+  .text-#{$name} {
+    color: #{$color};
+  }
+}
+
+$text-decoration-values: (
+    underline,
+    none,
+);
+
+@each $value in $text-decoration-values {
+    .text-decoration-#{$value} {
+        text-decoration: $value;
+    }
+}
+
+
+$text-alignment-values: (
+    right,
+    left,
+    center,
+    justify,
+);
+
+@each $value in $text-alignment-values {
+    .text-#{$value} {
+        text-align: $value;
+    }
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.line-height-2rem {
+    line-height: 2rem;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-bold-imp {
+    font-weight: bold !important;
+}

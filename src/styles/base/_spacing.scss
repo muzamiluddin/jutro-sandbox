@@ -1,0 +1,458 @@
+// Define rem values
+$rem-values: (
+  0: 0,
+  half: 0.5rem,
+  1: 1rem,
+  2: 2rem,
+  3: 3rem,
+  4: 4rem,
+  5: 5rem,
+  6: 6rem,
+  7: 7rem,
+  8: 8rem,
+  9: 9rem,
+  10: 10rem,
+  11: 11rem,
+  12: 12rem,
+  13: 13rem,
+  14: 14rem,
+  15: 15rem,
+  16: 16rem,
+  17: 17rem,
+  18: 18rem,
+  19: 19rem,
+  20: 20rem
+);
+
+// Generate utility classes for width and height
+@each $value,
+$rem in $rem-values {
+
+  .w-#{$value} {
+    width: $rem;
+  }
+
+  .h-#{$value} {
+    height: $rem;
+  }
+
+  .w-#{$value}-imp {
+    width: $rem !important;
+  }
+
+  .h-#{$value}-imp {
+    height: $rem !important;
+  }
+}
+
+// Generate utility classes for margin and padding
+@each $value, $rem in $rem-values {
+
+  // Without !important
+  .mb-#{$value} {
+    margin-bottom: $rem;
+  }
+
+  .mt-#{$value} {
+    margin-top: $rem;
+  }
+
+  .ml-#{$value} {
+    margin-left: $rem;
+  }
+
+  .mr-#{$value} {
+    margin-right: $rem;
+  }
+
+  .pb-#{$value} {
+    padding-bottom: $rem;
+  }
+
+  .pt-#{$value} {
+    padding-top: $rem;
+  }
+
+  .pl-#{$value} {
+    padding-left: $rem;
+  }
+
+  .pr-#{$value} {
+    padding-right: $rem;
+  }
+
+  // With !important
+  .mb-#{$value}-imp {
+    margin-bottom: $rem !important;
+  }
+
+  .mt-#{$value}-imp {
+    margin-top: $rem !important;
+  }
+
+  .ml-#{$value}-imp {
+    margin-left: $rem !important;
+  }
+
+  .mr-#{$value}-imp {
+    margin-right: $rem !important;
+  }
+
+  .pb-#{$value}-imp {
+    padding-bottom: $rem !important;
+  }
+
+  .pt-#{$value}-imp {
+    padding-top: $rem !important;
+  }
+
+  .pl-#{$value}-imp {
+    padding-left: $rem !important;
+  }
+
+  .pr-#{$value}-imp {
+    padding-right: $rem !important;
+  }
+
+  // Media queries for different devices
+  @media (min-width: 768px) {
+    .mb-#{$value}-md {
+      margin-bottom: $rem;
+    }
+
+    .mt-#{$value}-md {
+      margin-top: $rem;
+    }
+
+    .ml-#{$value}-md {
+      margin-left: $rem;
+    }
+
+    .mr-#{$value}-md {
+      margin-right: $rem;
+    }
+
+    .pb-#{$value}-md {
+      padding-bottom: $rem;
+    }
+
+    .pt-#{$value}-md {
+      padding-top: $rem;
+    }
+
+    .pl-#{$value}-md {
+      padding-left: $rem;
+    }
+
+    .pr-#{$value}-md {
+      padding-right: $rem;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .mb-#{$value}-sm {
+      margin-bottom: $rem;
+    }
+
+    .mt-#{$value}-sm {
+      margin-top: $rem;
+    }
+
+    .ml-#{$value}-sm {
+      margin-left: $rem;
+    }
+
+    .mr-#{$value}-sm {
+      margin-right: $rem;
+    }
+
+    .pb-#{$value}-sm {
+      padding-bottom: $rem;
+    }
+
+    .pt-#{$value}-sm {
+      padding-top: $rem;
+    }
+
+    .pl-#{$value}-sm {
+      padding-left: $rem;
+    }
+
+    .pr-#{$value}-sm {
+      padding-right: $rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .mb-#{$value}-lg {
+      margin-bottom: $rem;
+    }
+
+    .mt-#{$value}-lg {
+      margin-top: $rem;
+    }
+
+    .ml-#{$value}-lg {
+      margin-left: $rem;
+    }
+
+    .mr-#{$value}-lg {
+      margin-right: $rem;
+    }
+
+    .pb-#{$value}-lg {
+      padding-bottom: $rem;
+    }
+
+    .pt-#{$value}-lg {
+      padding-top: $rem;
+    }
+
+    .pl-#{$value}-lg {
+      padding-left: $rem;
+    }
+
+    .pr-#{$value}-lg {
+      padding-right: $rem;
+    }
+  }
+}
+
+@each $value, $rem in $rem-values {
+
+  // Without !important
+  .mx-#{$value} {
+    margin-left: $rem;
+    margin-right: $rem;
+  }
+
+  .my-#{$value} {
+    margin-top: $rem;
+    margin-bottom: $rem;
+  }
+
+  .px-#{$value} {
+    padding-left: $rem;
+    padding-right: $rem;
+  }
+
+  .py-#{$value} {
+    padding-top: $rem;
+    padding-bottom: $rem;
+  }
+
+  // With !important
+  .mx-#{$value}-imp {
+    margin-left: $rem !important;
+    margin-right: $rem !important;
+  }
+
+  .my-#{$value}-imp {
+    margin-top: $rem !important;
+    margin-bottom: $rem !important;
+  }
+
+  .px-#{$value}-imp {
+    padding-left: $rem !important;
+    padding-right: $rem !important;
+  }
+
+  .py-#{$value}-imp {
+    padding-top: $rem !important;
+    padding-bottom: $rem !important;
+  }
+
+  // Media queries for different devices
+  @media (min-width: 768px) {
+    .mx-#{$value}-md {
+      margin-left: $rem;
+      margin-right: $rem;
+    }
+
+    .my-#{$value}-md {
+      margin-top: $rem;
+      margin-bottom: $rem;
+    }
+
+    .px-#{$value}-md {
+      padding-left: $rem;
+      padding-right: $rem;
+    }
+
+    .py-#{$value}-md {
+      padding-top: $rem;
+      padding-bottom: $rem;
+    }
+  }
+}
+
+// Padding and Margin Classes
+@each $value, $rem in $rem-values {
+  .mx-#{$value} {
+    margin-left: $rem;
+    margin-right: $rem;
+  }
+
+  .my-#{$value} {
+    margin-top: $rem;
+    margin-bottom: $rem;
+  }
+
+  .px-#{$value} {
+    padding-left: $rem;
+    padding-right: $rem;
+  }
+
+  .py-#{$value} {
+    padding-top: $rem;
+    padding-bottom: $rem;
+  }
+
+  // With !important
+  .mx-#{$value}-imp {
+    margin-left: $rem !important;
+    margin-right: $rem !important;
+  }
+
+  .my-#{$value}-imp {
+    margin-top: $rem !important;
+    margin-bottom: $rem !important;
+  }
+
+  .px-#{$value}-imp {
+    padding-left: $rem !important;
+    padding-right: $rem !important;
+  }
+
+  .py-#{$value}-imp {
+    padding-top: $rem !important;
+    padding-bottom: $rem !important;
+  }
+
+  // Media queries for different devices
+  @media (min-width: 576px) {
+    .mx-#{$value}-sm {
+      margin-left: $rem;
+      margin-right: $rem;
+    }
+
+    .my-#{$value}-sm {
+      margin-top: $rem;
+      margin-bottom: $rem;
+    }
+
+    .px-#{$value}-sm {
+      padding-left: $rem;
+      padding-right: $rem;
+    }
+
+    .py-#{$value}-sm {
+      padding-top: $rem;
+      padding-bottom: $rem;
+    }
+
+    .mx-#{$value}-sm-imp {
+      margin-left: $rem !important;
+      margin-right: $rem !important;
+    }
+
+    .my-#{$value}-sm-imp {
+      margin-top: $rem !important;
+      margin-bottom: $rem !important;
+    }
+
+    .px-#{$value}-sm-imp {
+      padding-left: $rem !important;
+      padding-right: $rem !important;
+    }
+
+    .py-#{$value}-sm-imp {
+      padding-top: $rem !important;
+      padding-bottom: $rem !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mx-#{$value}-md {
+      margin-left: $rem;
+      margin-right: $rem;
+    }
+
+    .my-#{$value}-md {
+      margin-top: $rem;
+      margin-bottom: $rem;
+    }
+
+    .px-#{$value}-md {
+      padding-left: $rem;
+      padding-right: $rem;
+    }
+
+    .py-#{$value}-md {
+      padding-top: $rem;
+      padding-bottom: $rem;
+    }
+
+    .mx-#{$value}-md-imp {
+      margin-left: $rem !important;
+      margin-right: $rem !important;
+    }
+
+    .my-#{$value}-md-imp {
+      margin-top: $rem !important;
+      margin-bottom: $rem !important;
+    }
+
+    .px-#{$value}-md-imp {
+      padding-left: $rem !important;
+      padding-right: $rem !important;
+    }
+
+    .py-#{$value}-md-imp {
+      padding-top: $rem !important;
+      padding-bottom: $rem !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .mx-#{$value}-lg {
+      margin-left: $rem;
+      margin-right: $rem;
+    }
+
+    .my-#{$value}-lg {
+      margin-top: $rem;
+      margin-bottom: $rem;
+    }
+
+    .px-#{$value}-lg {
+      padding-left: $rem;
+      padding-right: $rem;
+    }
+
+    .py-#{$value}-lg {
+      padding-top: $rem;
+      padding-bottom: $rem;
+    }
+
+    .mx-#{$value}-lg-imp {
+      margin-left: $rem !important;
+      margin-right: $rem !important;
+    }
+
+    .my-#{$value}-lg-imp {
+      margin-top: $rem !important;
+      margin-bottom: $rem !important;
+    }
+
+    .px-#{$value}-lg-imp {
+      padding-left: $rem !important;
+      padding-right: $rem !important;
+    }
+
+    .py-#{$value}-lg-imp {
+      padding-top: $rem !important;
+      padding-bottom: $rem !important;
+    }
+  }
+}

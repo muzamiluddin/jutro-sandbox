@@ -1,0 +1,176 @@
+{
+  "wsib": {
+    "color": {
+      "background": {
+        "neutral-subtle": { "description": "Light neutral background color" },
+        "neutral-subtle-hover": { "description": "Light neutral background color hover state" },
+        "neutral-subtle-active": { "description": "Light neutral background color active state" },
+        "neutral": { "description": "Neutral background color" },
+        "neutral-hover": { "description": "Neutral background color hover state" },
+        "neutral-active": { "description": "Neutral background color active state" },
+        "page": { "description": "Background color for page" },
+        "progress": { "description": "Background color for progress status" },
+        "track": { "description": "Background color for track element" },
+        "brand": { "description": "Brand color for background" },
+        "brand-hover": { "description": "Brand color for hover state of background" },
+        "brand-active": { "description": "Brand color for active state of background" },
+        "brand-subtle": { "description": "Light brand color for background" },
+        "brand-subtle-hover": { "description": "Light brand color for background hover" },
+        "brand-subtle-active": { "description": "Light brand color for background active" },
+        "brand-accent-1": { "description": "Brand accent 1 color for background" },
+        "brand-accent-1-hover": { "description": "Brand accent 1 color for hover state of background" },
+        "brand-accent-1-active": { "description": "Brand accent 1 color for active state of background" },
+        "brand-accent-1-subtle": { "description": "Light brand accent 1 color" },
+        "brand-accent-1-subtle-hover": { "description": "Light brand accent 1 color hover" },
+        "brand-accent-1-subtle-active": { "description": "Light brand accent 1 color active" },
+        "brand-accent-2": { "description": "Brand accent 2 color for background" },
+        "brand-accent-2-hover": { "description": "Brand accent 2 color for hover state of background" },
+        "brand-accent-2-active": { "description": "Brand accent 2 color for active state of background" },
+        "brand-accent-2-subtle": { "description": "Light brand accent 2 color for background" },
+        "brand-accent-2-subtle-hover": { "description": "Light brand accent 2 color for hover state of background" },
+        "brand-accent-2-subtle-active": { "description": "Light brand accent 2 color for active state of background" },
+        "error": { "description": "Background color for error" },
+        "information": { "description": "Background color for information" },
+        "success": { "description": "Background color for success" },
+        "warning": { "description": "Background color for warning" },
+        "error-subtle": { "description": "Light background color for error" },
+        "information-subtle": { "description": "Light background color for information" },
+        "success-subtle": { "description": "Light background color for success" },
+        "warning-subtle": { "description": "Light background color for warning" },
+        "selected": { "description": "Background color indicating a selected state" },
+        "selected-hover": { "description": "Background color indicating a selected hover state" },
+        "selected-active": { "description": "Background color indicating a selected active state" },
+        "selected-subtle": { "description": "Light color indicating a selected state" },
+        "selected-subtle-hover": { "description": "Light color indicating a selected hover state" },
+        "selected-subtle-active": { "description": "Light color indicating a selected active state" },
+        "input": { "description": "Background color for inputs" },
+        "input-hover": { "description": "Background color for hover state of inputs" },
+        "input-active": { "description": "Background color for active state of inputs" },
+        "input-read-only": { "description": "Background color for read-only state of inputs" }
+      },
+      "border": {
+        "regular": { "description": "Default border color for UI elements" },
+        "inverse": { "description": "Inverse border color for UI elements" },
+        "separator": { "description": "Border color for separator" },
+        "selected": { "description": "Border color indicating a selected state" },
+        "selected-hover": { "description": "Border color indicating a selected hover state" },
+        "selected-active": { "description": "Border color indicating a selected active state" },
+        "brand": { "description": "Brand color for border" },
+        "brand-hover": { "description": "Brand color for hover state of border" },
+        "brand-active": { "description": "Brand color for active state of border" },
+        "brand-accent-1": { "description": "Brand accent 1 color for border" },
+        "brand-accent-1-hover": { "description": "Brand accent 1 color for hover state of border" },
+        "brand-accent-1-active": { "description": "Brand accent 1 color for active state of border" },
+        "brand-accent-2": { "description": "Brand accent 2 color for border" },
+        "brand-accent-2-hover": { "description": "Brand accent 2 color for hover state of border" },
+        "brand-accent-2-active": { "description": "Brand accent 2 color for active state of border" },
+        "focus": { "description": "Border color used to indicate focus state" },
+        "focus-inverse": { "description": "Border inverse color used to indicate focus state over a dark background" },
+        "error": { "description": "Border color for error" },
+        "success": { "description": "Border color for success" },
+        "information": { "description": "Border color for information" },
+        "warning": { "description": "Border color for warning" }
+      },
+      "text": {
+        "regular": { "description": "Text color" },
+        "subtle": { "description": "Subtle text color" },
+        "inverse": { "description": "Inverse text color" },
+        "brand": { "description": "Brand color for text" },
+        "brand-hover": { "description": "Brand color for hover state of text" },
+        "brand-active": { "description": "Brand color for active state of text" },
+        "brand-accent-1": { "description": "Brand accent 1 color for text" },
+        "brand-accent-2": { "description": "Brand accent 2 color for text" },
+        "error": { "description": "Error color for text" },
+        "information": { "description": "Information color for text" },
+        "success": { "description": "Success color for text" },
+        "warning": { "description": "Warning color for text" },
+        "required": { "description": "Color for indicating required action, an asterisk by default" },
+        "link": {
+          "default": { "description": "Color for link text" },
+          "hover": { "description": "Color for hover state of link text" },
+          "active": { "description": "Color for active state of link text" },
+          "inverse": { "description": "Color for inverse link text" },
+          "visited": { "description": "Color for visited state of link text" },
+          "visited-hover": { "description": "Color for visited hover state of link text" },
+          "visited-active": { "description": "Color for visited active state of link text" }
+        }
+      },
+      "icon": {
+        "regular": { "description": "Regular icon color matching regular text color" },
+        "subtle": { "description": "Subtle color for icons" },
+        "inverse": { "description": "Inverse icon color" },
+        "brand": { "description": "Brand action color of icon" },
+        "brand-hover": { "description": "Brand action color for hover state of icon" },
+        "brand-active": { "description": "Brand action color for active state of icon" },
+        "brand-accent-1": { "description": "Brand accent 1 color for icon" },
+        "brand-accent-2": { "description": "Brand accent 2 color for icon" },
+        "error": { "description": "Error color for icon" },
+        "information": { "description": "Information color for icon" },
+        "success": { "description": "Success color for icon" },
+        "warning": { "description": "Warning color for icon" }
+      },
+      "interaction-overlay": {
+        "hover": { "description": "Overlay to indicate hover state when a background color cannot change, such as images" },
+        "active": { "description": "Overlay to indicate active state when a background color cannot change, such as images" }
+      }
+    },
+    "elevation": {
+      "surface": {
+        "primary": { "description": "Primary background for the UI" },
+        "primary-hover": { "description": "Primary background hover state for the UI" },
+        "primary-active": { "description": "Primary background active state for the UI" },
+        "recessed": { "description": "Secondary background for the UI often used for grouping items" },
+        "raised": { "description": "Primary background for cards that can be moved" },
+        "raised-hover": { "description": "Primary background hover state for cards that can be moved" },
+        "raised-active": { "description": "Primary background active state for cards that can be moved" },
+        "overlay": { "description": "Background for elements positioned above the UI such as modals, dropdown menus, dialogues, etc., as well as the background for cards that are in a dragged state" },
+        "overlay-hover": { "description": "Background hover state for elements positioned above the UI such as modals, dropdown menus, dialogues, etc., as well as the background for cards that are in a dragged state" },
+        "overlay-active": { "description": "Background active state for elements positioned above the UI such as modals, dropdown menus, dialogues, etc., as well as the background for cards that are in a dragged state" }
+      },
+      "shadow": {
+        "low": { "description": "Shadow for lowest level" },
+        "raised": { "description": "Default shadow used for most components" },
+        "overlay": { "description": "Shadow for highest level" },
+        "overflow": { "description": "Shadow used when content scrolls underneath a surface" },
+        "inset": { "description": "Inset shadow" }
+      }
+    },
+    "opacity": {
+      "disabled": { "description": "Opacity for disabled state" }
+    },
+    "space": {
+      "1": { "description": "One quarter unit of 8-pixel grid" },
+      "2": { "description": "One half unit of 8-pixel grid" },
+      "3": { "description": "Unit of 8-pixel grid" },
+      "4": { "description": "150% of base unit of 8-pixel grid" },
+      "5": { "description": "200% of base unit of 8-pixel grid" },
+      "6": { "description": "250% of base unit of 8-pixel grid" },
+      "7": { "description": "300% of base unit of 8-pixel grid" },
+      "8": { "description": "350% of base unit of 8-pixel grid" },
+      "9": { "description": "400% of base unit of 8-pixel grid" },
+      "10": { "description": "500% of base unit of 8-pixel grid" },
+      "11": { "description": "600% of base unit of 8-pixel grid" },
+      "12": { "description": "800% of base unit of 8-pixel grid" },
+      "13": { "description": "1000% of base unit of 8-pixel grid" },
+      "14": { "description": "1200% of base unit of 8-pixel grid" },
+      "15": { "description": "2000% of base unit of 8-pixel grid" }
+    },
+    "size": {
+      "1": { "description": "1x unit of 8-pixel grid" },
+      "2": { "description": "2x unit of 8-pixel grid" },
+      "3": { "description": "3x unit of 8-pixel grid" },
+      "4": { "description": "4x unit of 8-pixel grid" },
+      "5": { "description": "6x unit of 8-pixel grid" },
+      "6": { "description": "8x unit of 8-pixel grid" },
+      "7": { "description": "10x unit of 8-pixel grid" }
+    },
+    "border-radius": {
+      "regular": { "description": "Border radius used by default across the UI" },
+      "round": { "description": "Border radius for fully rounded" }
+    },
+    "border-width": {
+      "regular": { "description": "Regular border width" },
+      "thick": { "description": "Thick border width" }
+    }
+  }
+}
